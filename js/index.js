@@ -45,7 +45,7 @@ const array = [
   "David Robinson",
   "Scottie Pippen",
 ];
-let time = 60;
+let time = 10;
 let currentNameIndex = 0;
 const timeDown = document.getElementById("timeDown");
 setInterval(update, 1000);
@@ -90,7 +90,7 @@ document.body.addEventListener("keydown", (event) => {
     currentNameIndex=Math.floor(Math.random()*array.length+1);
     AddSpan(array[currentNameIndex]);
     keyIndex = 0;
-    time = 60;
+    time = 10;
   }
   //нужная буква
   else if (event.key === currentSpan.innerText) {
