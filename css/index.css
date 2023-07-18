@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+.time{
+    font-size: 32px;
+    margin: 50px;
+    color: blueviolet;
+}
+.content{
+    font-size: 50px;
+}
+.message{
+    border: 3px solid blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+    opacity: 0;
+    transition: opacity 0.5s ease;  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
